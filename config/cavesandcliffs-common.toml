@@ -1,0 +1,11 @@
+
+["World Generation Settings"]
+	#toggle the copper ore generation, useful if you use other mods that spawn copper.
+	useCopperGeneration = true
+	#define the height for deepslate to generate, by default it is 0 which disables it, have fun with it
+	#Range: 0 ~ 32
+	deepslateGenerationHeight = 0
+	#define the size for the cave biomes to be generated, by default it is 4.
+	#Range: 1 ~ 10
+	caveBiomeSize = 4
+

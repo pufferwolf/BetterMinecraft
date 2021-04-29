@@ -1,0 +1,12 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.AccessibilityScreen
+  renderorder = foreground
+}
+
+customization {
+  path = resourcepacks/Graphics/banner.png
+  action = texturizebackground
+}
+

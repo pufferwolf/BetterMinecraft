@@ -1,0 +1,100 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = background
+}
+
+customization {
+  name = betterminecraftpanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -124
+  width = 20
+  actionid = 33a802a3-c1e9-4f50-a16d-9227f081c1751618200993046
+  action = addbutton
+  y = -174
+  label = D
+  value = https://discord.gg/9S5tfrY4Fr
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = bottom-centered
+  x = -121
+  width = 14
+  action = addtexture
+  actionid = 5e500d47-759a-4d44-9bd5-12b4e98ab6ad1615685752787
+  y = -172
+  height = 15
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = opengui
+  x = 104
+  width = 20
+  actionid = fe0158cb-fcdd-411a-a434-53ee4f15ae6e1618200993077
+  action = addbutton
+  y = -174
+  label = C
+  value = net.minecraftforge.fml.client.gui.screen.ModListScreen
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/forge.png
+  orientation = bottom-centered
+  x = 107
+  width = 14
+  action = addtexture
+  actionid = 21eb83d9-96d9-42e4-8420-c4ad498a31361615685752824
+  y = -171
+  height = 13
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = Use CODE: LunaPixel for 25% off
+  buttonaction = openlink
+  x = -100
+  width = 200
+  actionid = fb6d52af-4f84-45c4-89ca-e8b3d61070901618200993109
+  action = addbutton
+  y = -174
+  label = Bisect Hosting
+  value = https://www.bisecthosting.com/LunaPixel
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/small.png
+  orientation = mid-centered
+  x = -102
+  width = 204
+  action = addtexture
+  actionid = 6d43a613-1ce5-423e-9259-ce5420adc77b1615807570083
+  y = -151
+  height = 81
+}
+
