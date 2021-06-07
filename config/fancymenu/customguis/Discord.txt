@@ -1,3 +1,0 @@
-identifier = Discord
-title = Discord
-allowesc = true
